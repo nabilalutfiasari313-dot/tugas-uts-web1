@@ -47,3 +47,43 @@ tugas-uts-web1/
     └── paud_perkembangan.jpeg
 └── README.md
 ```
+
+---
+
+# Tangkapan Layar (Screenshot) Setiap Proses
+
+## 1. Struktur Folder di VS Code
+<img width="101" height="151" alt="image" src="https://github.com/user-attachments/assets/6211a463-37ff-4ed0-98c7-e69459388680" />
+
+
+Menunjukkan penerapan modularitas file (css/, js/, img/, dan file HTML terpisah).   
+
+## 2. Tampilan Halaman Login (index.html)
+<img width="959" height="438" alt="Screenshot 2026-11-08 064029" src="https://github.com/user-attachments/assets/9ea53da1-3952-4d76-8015-c518a8c297f5" />
+
+
+Pengujian validasi form login[cite: 1] serta modal interaktif.
+
+## 3. Tampilan Dashboard (dashboard.html)
+<img width="959" height="446" alt="Screenshot 2026-11-08 064054" src="https://github.com/user-attachments/assets/a9a76cce-dd9f-47c5-a3a6-b6de9112b330" />
+
+
+Menampilkan sapaan dinamis berdasarkan waktu[cite: 1] dan menu navigasi.
+
+## 4. Tampilan Katalog Stok Buku & Manipulasi DOM (stok.html)
+<img width="959" height="434" alt="Screenshot 2026-11-08 064129" src="https://github.com/user-attachments/assets/35f53900-6011-4210-b3ea-8660e636e989" />
+
+
+Menampilkan tabel data lengkap bersama cover buku resmi kiriman dosen[cite: 1, 6, 7, 8, 9] serta form penambahan data baru secara dinamis[cite: 1].
+
+## 5. Tampilan Halaman Pemesanan (checkout.html)
+<img width="959" height="436" alt="Screenshot 2026-11-08 064159" src="https://github.com/user-attachments/assets/a35c0692-1e59-4403-8af3-e3cff183ebf0" />
+
+
+Proses pencatatan pesanan buku dan metode pembayaran[cite: 1].
+
+## 6. Tampilan Tracking Pengiriman (tracking.html)
+<img width="959" height="428" alt="Screenshot 2026-11-08 064214" src="https://github.com/user-attachments/assets/6045f3a6-fe54-43fb-a59e-4226fc6f0e77" />
+
+
+Detail riwayat perjalanan pengiriman paket menggunakan nomor DO[cite: 2].
