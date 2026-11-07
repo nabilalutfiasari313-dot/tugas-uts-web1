@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracking Pengiriman DO</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Lacak Pengiriman (Tracking DO)</h2>
+    <a href="dashboard.html" class="btn" style="margin-bottom: 15px;">&larr; Kembali ke Dashboard</a>
+    
+    <div class="form-group">
+      <label>Nomor Delivery Order (DO):</label>
+      <div style="display: flex; gap: 10px;">
+        <input type="text" id="inputNoDO" placeholder="Coba: 20230012 atau 20230013">
+        <button id="cariDoBtn" style="white-space: nowrap;">Cari DO</button>
+      </div>
+    </div>
+
+    <div id="hasilTracking" style="margin-top: 20px;"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

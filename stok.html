@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Informasi Stok Buku</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Katalog & Informasi Stok Buku</h2>
+    <a href="dashboard.html" class="btn" style="margin-bottom: 15px;">&larr; Kembali ke Dashboard</a>
+    
+    <div style="margin-bottom: 20px; background: #fff5f7; padding: 15px; border-radius: 6px;">
+      <h3>Tambah Stok Buku Baru (DOM Manipulation)</h3>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
+        <input type="text" id="kodeBarang" placeholder="Kode Barang (Cth: WEB101)">
+        <input type="text" id="namaBarang" placeholder="Nama Buku">
+        <input type="text" id="jenisBarang" placeholder="Jenis Barang">
+        <input type="text" id="harga" placeholder="Harga (Cth: Rp 100.000)">
+        <input type="text" id="stok" placeholder="Jumlah Stok">
+      </div>
+      <button id="tambahBarisBtn">Tambah ke Tabel</button>
+    </div>
+
+    <table id="tabelStok">
+      <thead>
+        <tr>
+          <th>Cover</th>
+          <th>Kode</th>
+          <th>Nama Buku</th>
+          <th>Jenis</th>
+          <th>Edisi</th>
+          <th>Stok</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data dimasukkan otomatis lewat JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
